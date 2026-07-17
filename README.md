@@ -20,7 +20,7 @@ The hands-on environments are powered by **Qwiklabs (Google Cloud Skills Boost)*
 | :--- | :--- | :--- | :--- |
 | **Linux & CLI** | Managing Software with APT (Suricata & tcpdump) | APT, Bash, CLI | [View Lab Documentation](./linux-software-installation/README.md) |
 | **Linux & CLI** | Examine Input/Output in the Linux Shell | echo, expr, clear | [View Lab Documentation](./examine-linux-shell-io/README.md) |
-| **Incident Response** | *[Next Lab Name - e.g., Analyzing Logs with Wireshark]* | *[Tools Used]* | `[Coming Soon]` |
+| **Find Files with Linux Commands** | *[Next Lab Name - e.g., Analyzing Logs with Wireshark]* | *[Tools Used]* | `[Coming Soon]` |
 
 ---
 
