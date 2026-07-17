@@ -20,7 +20,7 @@ The hands-on environments are powered by **Qwiklabs (Google Cloud Skills Boost)*
 | :--- | :--- | :--- | :--- |
 | **Linux & CLI** | Managing Software with APT (Suricata & tcpdump) | APT, Bash, CLI | [View Lab Documentation](./linux-software-installation/README.md) |
 | **Linux & CLI** | Examine Input/Output in the Linux Shell | echo, expr, clear | [View Lab Documentation](./examine-linux-shell-io/README.md) |
-| **Find Files with Linux Commands** | *[Next Lab Name - e.g., Analyzing Logs with Wireshark]* | *[Tools Used]* | `[Coming Soon]` |
+| **Linux-File-Navigation** | Located and analyzed system user files and server logs within a Linux environment to audit user management records and identify authentication risks. | Bash Shell, Linux Core Utilities (`pwd`, `ls`, `cd`, `cat`, `head`).| `[Coming Soon]` |
 
 ---
 
