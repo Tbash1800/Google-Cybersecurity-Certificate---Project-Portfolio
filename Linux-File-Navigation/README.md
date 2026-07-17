@@ -92,6 +92,40 @@ head server_logs.txt
 2022-09-28 16:56:48 warning The current user’s password expires in 15 days
 2022-09-29 13:55:55 info    User logged on successfully
 ```
+---
+
+## Advanced Analysis: Filtering Logs with `grep`
+In a real-world scenario, log files are massive. To efficiently triage the `server_logs.txt` file, a Security Analyst uses the `grep` command to isolate critical security events. 
+
+### 1. Filtering for Authentication Errors
+To find all instances where users failed to log in due to incorrect passwords or usernames, run:
+
+```bash
+grep "error" server_logs.txt
+```
+
+**Simulated Output:**
+```text
+2022-09-28 13:56:22 error   The password is incorrect
+2022-09-28 15:56:22 error   The username is incorrect
+2022-09-28 16:56:22 error   The password is incorrect
+```
+*Security Value: This allows an analyst to quickly spot potential brute-force attacks or recurring credential issues.*
+
+### 2. Filtering for System Warnings
+To check the system's operational health and identify disk space or expiration alerts, run:
+
+```bash
+grep "warning" server_logs.txt
+```
+
+**Simulated Output:**
+```text
+2022-09-28 13:56:48 warning The file storage is 75% full
+2022-09-28 15:56:48 warning The file storage is 90% full
+2022-09-28 16:56:48 warning The current user’s password expires in 15 days
+```
+*Security Value: Isolating warnings helps prevent Denial of Service (DoS) conditions caused by depleted system storage.*
 
 ---
 
